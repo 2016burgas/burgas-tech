@@ -1,8 +1,8 @@
 # burgas-tech
 ## One project for 2016 CodeEU week
-HTML &amp; CSS project
 
 To start with this project:
+
 1. Clone it
 2. Create a branch
 3. Add your improvements
