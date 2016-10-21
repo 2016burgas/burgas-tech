@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+.navbar {
+  height:85px;
+  width:100%;
+}
+.navbar-default {
+  padding-top:15px;
+  background-color:#5a7fff;
+  border: none;
+  color: #fff;
+}
+.navbar-brand {
+  margin-top:-20px;
+}
+.navbar-nav {
+  color:#fff;
+  list-style: none;
+    display: inline-block;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: #fff;
+  border-radius:5px;
+  color:red;
+}
+.navbar-default .navbar-nav>.active>a {
+  background-color: #fff;
+  border-radius:5px;
+  color:red;
+}
+.navbar-default .navbar-nav>li>a{
+  color:black;
+  font-family:"Kanit";
+  font-size:25px;
+  font-style:italic;
+}
+#home,#top,#middle,#bottom{
+    height: 980px;
+    background: lightblue;
+    padding-top:85px;
+}
+</style>
+</head>
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                <!--logo-->
+                <a class="navbar-brand" href="#home">
+                  <img src="http://www.prevencii-burgas.com/themes/drugs/assets/images/site/logo_burgas.png" height="70px" />
+                </a>
+              </div>
+              <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right" id="main-menu">
+                    <li><a href="#top">1Level</a>
+                   </li>
+                   <li><a href="#middle">2Level</a>
+                   </li>
+                   <li><a href="#bottom">3Level</a>
+                   </li>
+                   <li><a href="https://twitter.com/?lang=en">Twitter</a>
+                   </li>
+                   <li><a href="https://www.facebook.com/?stype=lo&jlou=AferxUNs5g3w66jdQIJAa3eJslVqYxFh2Ls2Ob0j8E5CizT8O00PXdRYbQx2zal48FILbVZPVeK7PdJfeN93dLweTvqlQxdrTxcR4GVWQoz1aA&smuh=2421&lh=Ac-3NjheR_pu3hBE">Facebook</a>
+                   </li>
+                   <li><a href="#page-portfolio">Sign in</a>
+                   </li>
+                   <li><a href="#page-contact">Sign up</a>
+                   </li>
+                  </ul>
+              </div>
+              <!--/.nav-collapse -->
+          </div>
+      </div>
+      <div id="home"><a href="home"></a>Home</div>
+      <div id="top"><a href="top"></a>Top</div>
+      <div id="middle"><a href="middle"></a>Middle</div>
+      <div id="bottom"><a href="bottom"></a>Bottom</div>
+</body>
+</html>
